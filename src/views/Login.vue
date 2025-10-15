@@ -47,7 +47,7 @@ const submitForm = async () => {
   loginForm.value.validate((valid) => {
     if (valid) {
       axios
-        .post("/autoselladmin/manage/login", {
+        .post("/autoselladmin/manage/shop/login", {
           username: state.ruleForm.username || "",
           password: state.ruleForm.password,
         })

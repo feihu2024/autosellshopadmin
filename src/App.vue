@@ -35,7 +35,7 @@
               >
             </el-menu-item-group>
           </el-sub-menu> -->
-          <el-menu-item index="/banner"><el-icon>
+          <!-- <el-menu-item index="/banner"><el-icon>
               <Goods />
             </el-icon>Banner管理</el-menu-item>
           <el-menu-item index="/poster"><el-icon>
@@ -52,11 +52,11 @@
             </el-icon>供应商管理</el-menu-item>
           <el-menu-item index="/good"><el-icon>
               <Goods />
-            </el-icon>商品管理</el-menu-item>
+            </el-icon>商品管理</el-menu-item> -->
           <el-menu-item index="/orders"><el-icon>
               <Goods />
             </el-icon>订单管理</el-menu-item>
-          <el-menu-item index="/repurchase"><el-icon>
+          <!-- <el-menu-item index="/repurchase"><el-icon>
               <Goods />
             </el-icon>复购管理</el-menu-item>
           <el-menu-item index="/withdrawal"><el-icon>
@@ -98,7 +98,7 @@
               </el-menu-item>
 
             </el-menu-item-group>
-          </el-sub-menu>
+          </el-sub-menu> -->
           <!-- <el-sub-menu index="3">
             <template #title>
               <span>模块管理</span>

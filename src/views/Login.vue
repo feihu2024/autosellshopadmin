@@ -33,7 +33,7 @@ import { localSet } from "@/utils";
 const loginForm = ref(null);
 const state = reactive({
   ruleForm: {
-    username: "admintest",
+    username: "12121212121",
     password: "",
     //  password: "mm9j#asdfAE",
   },

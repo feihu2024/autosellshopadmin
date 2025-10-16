@@ -213,7 +213,7 @@ function getList() {
     "page": state.page,
     "page_size": state.page_size,
   }
-  axios.post("/autoselladmin/manage/send_order/shop/get", data).then((res) => {
+  axios.post("/autoselladmin/manage/send_order/shoper/get", data).then((res) => {
     state.tableData = res.data;
     state.total = res.total
   });

@@ -27,13 +27,13 @@
 
             <el-form-item label="">
               <el-button type="primary" @click="getList">搜索</el-button>
-              <el-button type="primary" @click="handleExport"><el-icon>
+              <!-- <el-button type="primary" @click="handleExport"><el-icon>
                   <Download />
                 </el-icon>导出未发货订单</el-button>
               <el-button type="primary" @click="handleImport">
                 <el-icon>
                   <Upload />
-                </el-icon>导入发货订单</el-button>
+                </el-icon>导入发货订单</el-button> -->
               <!-- <el-button type="primary" @click="handleExportlogistics">
                 <el-icon>
                   <Download />
@@ -119,8 +119,8 @@
       </el-table-column>
       <el-table-column label="操作" width="190">
         <template #default="scope">
-          <a style="cursor: pointer; margin-right: 10px" @click="handleView(scope.row)">修改订单备注</a>
-          <a style="cursor: pointer; margin-right: 10px" @click="handleEdit(scope.row)">修改备注</a>
+          <!-- <a style="cursor: pointer; margin-right: 10px" @click="handleView(scope.row)">修改订单备注</a>
+          <a style="cursor: pointer; margin-right: 10px" @click="handleEdit(scope.row)">修改备注</a> -->
           <a style="cursor: pointer; margin-right: 10px" @click="handleInformation(scope.row)">填写发货信息</a>
         </template>
       </el-table-column>
